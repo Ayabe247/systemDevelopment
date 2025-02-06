@@ -5,13 +5,14 @@ import java.sql.*;
 import java.util.*;
 
 import javax.servlet.*;
+import javax.servlet.annotation.*;
 import javax.servlet.http.*;
 
 
 /**
  * Servlet implementation class UserSelectServlet
  */
-
+@WebServlet("/UserSelectServlet")
 public class UserSelectServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
